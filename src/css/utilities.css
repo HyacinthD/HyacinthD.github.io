@@ -29,7 +29,7 @@ h2::selection {
 
 .btn-primary {
   background: var(--primary-color);
-  color: #000000;
+  color: var(--secondary-color);
 }
 
 .btn-secondary {
@@ -41,6 +41,8 @@ h2::selection {
 /* add hover to resume button */
 .btn-primary:hover {
   background: var(--secondary-color);
+  color: var(--primary-color);
+
 }
 
 /* Dark mode toggle */
