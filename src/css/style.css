@@ -89,6 +89,17 @@ body {
   line-height: 1.5;
 }
 
+#daySushi img{
+  width:auto;
+  height:100%;
+  max-width:90vw
+}
+#nightSushi img{
+  width:auto;
+  height:100%;
+  max-width:90vw
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
